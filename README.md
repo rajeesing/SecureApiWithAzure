@@ -1,5 +1,5 @@
 # SecureApiWithAzure
-There are many ways to provide security to your APIs. One of them using Cloud services and there are plenty of them who offers this and ofcourse easy. Thanks for Les Jackson (https://youtu.be/3PyUjOmuFic) to teach this and who walk us through step-by-step approach to do that. 
+There are many ways to provide security to your APIs. One of them using Cloud services and there are plenty of them who offers this and ofcourse easy. 
 
 Steps given below to setup your Azure portal:
 
@@ -23,3 +23,8 @@ Steps given below to setup your Azure portal:
 
 7. Now the final step, add your client secret which you wanted to share with client to access your API. It is really important to copy the Value, as it won't available in future as it is secure information.\
 ![alt text](https://github.com/rajeesing/SecureApiWithAzure/blob/master/7.jpg)
+
+Note: Definately you should find a better way to store your sensitive information like [Azure Key Vault](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration). appsettings is not correct place and can be compromised easily. 
+
+Thanks for Les Jackson to teach this and who walk us through step-by-step approach to do that.\
+[![Secure a .NET Core API with Bearer Authentication](http://img.youtube.com/vi/3PyUjOmuFic/0.jpg)](https://youtu.be/3PyUjOmuFic)\
